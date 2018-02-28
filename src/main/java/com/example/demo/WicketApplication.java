@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.springframework.beans.factory.annotation.Autowired;
