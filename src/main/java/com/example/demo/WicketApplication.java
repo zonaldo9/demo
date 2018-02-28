@@ -12,8 +12,8 @@ import org.springframework.context.ApplicationContext;
 public class WicketApplication extends WebApplication {
 
 	@Override
-	public Class<? extends WelcomePage> getHomePage() {
-		return WelcomePage.class;
+	public Class<? extends ModalWindowExample> getHomePage() {
+		return ModalWindowExample.class;
 	}
 
 	@Autowired
